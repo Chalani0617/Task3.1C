@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/congratsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Congratulations!"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="YOUR SCORE: 0/3"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="55dp"/>
+
+    <Button
+        android:id="@+id/retryBtn"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Take New Quiz" />
+
+    <Button
+        android:id="@+id/finishBtn"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Finish"
+        android:layout_marginTop="16dp" />
+</LinearLayout>

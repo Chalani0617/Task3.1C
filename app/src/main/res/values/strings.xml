@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Task3.1C</string>
+
+    <string name="option1_text">Answer A</string>
+    <string name="option2_text">Answer B</string>
+    <string name="option3_text">Answer C</string>
+    <string name="option4_text">Answer D</string>
+
+    <string name="option1_desc">Answer option 1</string>
+    <string name="option2_desc">Answer option 2</string>
+    <string name="option3_desc">Answer option 3</string>
+    <string name="option4_desc">Answer option 4</string>
+
+    <string name="submit">Submit</string>
+    <string name="submit_desc">Submit answer button</string>
+
+
+</resources>
